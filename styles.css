@@ -1,0 +1,117 @@
+/* CSS styles for Employee Dashboard */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.login-options button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-options button:hover {
+    background-color: #0056b3;
+}
+
+.glassmorphism-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.glassmorphism-card {
+    width: 300px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+}
+
+.glassmorphism-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.glassmorphism-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.glassmorphism-card button:hover {
+    background-color: #0056b3;
+}
+
+#edit-user-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#edit-user-form input[type="text"],
+#edit-user-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#edit-user-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#edit-user-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Dark mode styles */
+
+.dark-theme {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-theme input[type="text"],
+.dark-theme input[type="email"] {
+    background-color: #444;
+    color: #fff;
+    border-color: #666;
+}
+
+.dark-theme button {
+    background-color: #555;
+    color: #fff;
+}
